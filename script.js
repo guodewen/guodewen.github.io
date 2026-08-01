@@ -10,35 +10,54 @@ const videos = [
 // set thumbnail to its path, e.g. "assets/images/publications/jgs2-gq.jpg".
 const publications = [
   {
-    year: "2026", short: "JGS²-GQ", thumbnail: "",
+    year: "2026", short: "###", thumbnail: "",
+    title: "##############################################################",
+    authors: "Dewen Guo et al.",
+    venue: "ACM TOG (SIGGRAPH Asia 2026) · Kuala Lumpur, Malaysia",
+  },
+  {
+    year: "2026", short: "###", thumbnail: "",
+    title: "##############################################################",
+    authors: "###, Dewen Guo et al.",
+    venue: "ACM SIGGRAPH Asia 2026 · Kuala Lumpur, Malaysia",
+  },
+  {
+    year: "2026", short: "JGS2-GQ", thumbnail: "assets/images/publications/dpgai.jpg",
+    title: "Differentiable Physics for Graphics and AI. ",
+    authors: "Minchen Li, Chenfanfu Jiang, Yin Yang, Tuur Stuyck, Ming Lin, Daniele Panozzo, Miles Macklin, Guying Lin, Yunuo Chen, Kemeng Huang, Dewen Guo, Ying Jiang, Yifei Li",
+    venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
+    links: [{ label: "Page", url: "https://dpgai.github.io/SIGGRAPH2026/" }, { label: "ACM DL", url: "https://dl.acm.org/doi/10.1145/3799828.3811422" }]
+  },
+  {
+    year: "2026", short: "JGS2-GQ", thumbnail: "assets/images/publications/jgs2-gq.jpg",
     title: "JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature",
     authors: "Dewen Guo, Zixuan Lu, Zhiyong He, Yuqi Meng, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
     links: [{ label: "Video", url: "https://www.youtube.com/watch?v=LtEOF6TqryU" }]
   },
   {
-    year: "2026", short: "HSC", thumbnail: "",
+    year: "2026", short: "HSC", thumbnail: "assets/images/publications/hsc.jpg",
     title: "Heterogeneous Subspace Corrections for GPU Deformable Multibody Dynamics",
     authors: "Dewen Guo, Zhendong Wang, Minchen Li, Sheng Li, Guoping Wang, Huamin Wang, Chenfanfu Jiang, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
     links: [{ label: "Project page", url: "https://sites.google.com/view/multibody" }, { label: "Video", url: "https://www.youtube.com/watch?v=eu6gAxC29zc" }]
   },
   {
-    year: "2026", short: "M-ABD", thumbnail: "",
+    year: "2026", short: "M-ABD", thumbnail: "assets/images/publications/mabd.png",
     title: "M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics",
     authors: "Zhiyong He, Dewen Guo, Minghao Guo, Yili Zhao, Wojciech Matusik, Hao Su, Chenfanfu Jiang, Peter Yichen Chen, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
     links: []
   },
   {
-    year: "2026", short: "KNIT", thumbnail: "",
+    year: "2026", short: "KNIT", thumbnail: "assets/images/publications/yarn.png",
     title: "Interactive Yarn-level Knitwear with Nested Douglas-Rachford Splitting",
     authors: "Chun Yuan, Zixuan Lu, Haoyang Shi, Dewen Guo, Huamin Wang, Chenfanfu Jiang, Zherong Pan, Kui Wu, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
     links: []
   },
   {
-    year: "2025", short: "POA", thumbnail: "",
+    year: "2025", short: "POA", thumbnail: "assets/images/publications/poa.png",
     title: "Progressive Outfit Assembly and Instantaneous Pose Transfer",
     authors: "Dewen Guo, Zhendong Wang, Zegao Liu, Sheng Li, Guoping Wang, Yin Yang, Huamin Wang",
     venue: "ACM SIGGRAPH Asia 2025 · Hong Kong, China",
@@ -50,7 +69,7 @@ const publications = [
     ]
   },
   {
-    year: "2025", short: "KNOT", thumbnail: "",
+    year: "2025", short: "KNOT", thumbnail: "assets/images/publications/knot.webp",
     title: "Fast Physics-Based Modeling of Knots and Ties Using Templates",
     authors: "Dewen Guo, Zhendong Wang, Zegao Liu, Sheng Li, Guoping Wang, Yin Yang, Huamin Wang",
     venue: "ACM SIGGRAPH 2025 · Vancouver, Canada",
@@ -63,7 +82,7 @@ const publications = [
     ]
   },
   {
-    year: "2025", short: "DHP", thumbnail: "",
+    year: "2025", short: "DHP", thumbnail: "assets/images/publications/dhp.png",
     title: "Diagonal Hessian Proxy for Efficient Elastic Simulation using Peridynamics",
     authors: "Dewen Guo, Ran Tian, Sinuo Liu, Guoping Wang, Sheng Li",
     venue: "IEEE TVCG 2025",
@@ -75,14 +94,14 @@ const publications = [
     ]
   },
   {
-    year: "2025", short: "N-P", thumbnail: "",
+    year: "2025", short: "N-P", thumbnail: "assets/images/publications/neural-painting.png",
     title: "Neural-Polyptych: Content Controllable Painting Recreation for Diverse Genres",
     authors: "Yiming Zhao*, Dewen Guo*, Zhouhui Lian, Yue Gao, Jianhong Han, Jie Feng, Guoping Wang, Bingfeng Zhou, Sheng Li",
     venue: "Tsinghua / IEEE CVM Journal 2025 · *Equal contributions",
     links: [{ label: "Paper", url: "https://drive.google.com/file/d/1FcTh5JM6VWmIeYEgWsqOeGjqi0MvuxO3/view?usp=sharing" }]
   },
   {
-    year: "2024", short: "BAL", thumbnail: "",
+    year: "2024", short: "BAL", thumbnail: "assets/images/publications/bal.png",
     title: "Barrier-Augmented Lagrangian for GPU-based Elastodynamic Contact",
     authors: "Dewen Guo, Minchen Li, Yin Yang, Sheng Li, Guoping Wang",
     venue: "ACM TOG (SIGGRAPH Asia 2024) · Tokyo, Japan",
@@ -94,14 +113,14 @@ const publications = [
     ]
   },
   {
-    year: "2020", short: "VGG", thumbnail: "",
+    year: "2020", short: "VGG", thumbnail: "assets/images/publications/crowd.png",
     title: "VGG-Embedded Adaptive Layer-Normalized Crowd Counting Net with Scale-Shuffling Modules",
     authors: "Dewen Guo, Jie Feng, Bingfeng Zhou",
     venue: "IEEE ICPR 2020 · Milan, Italy",
     links: [{ label: "Paper", url: "https://drive.google.com/file/d/1Ev97BaC42OEv6SS3HfqBUbJjrRf_6iX1/view?usp=sharing" }]
   },
   {
-    year: "2019", short: "SAIE", thumbnail: "",
+    year: "2019", short: "SAIE", thumbnail: "assets/images/publications/img-exp.png",
     title: "Structure-aware Image Expansion with Global Attention",
     authors: "Dewen Guo, Jie Feng, Bingfeng Zhou",
     venue: "ACM SIGGRAPH Asia 2019 Technical Briefs · Brisbane, Australia",
