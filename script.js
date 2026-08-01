@@ -14,16 +14,18 @@ const publications = [
     title: "##############################################################",
     authors: "Dewen Guo et al.",
     venue: "ACM TOG (SIGGRAPH Asia 2026) · Kuala Lumpur, Malaysia",
+    links: []
   },
   {
     year: "2026", short: "###", thumbnail: "",
     title: "##############################################################",
     authors: "###, Dewen Guo et al.",
     venue: "ACM SIGGRAPH Asia 2026 · Kuala Lumpur, Malaysia",
+    links: []
   },
   {
-    year: "2026", short: "JGS2-GQ", thumbnail: "assets/images/publications/dpgai.jpg",
-    title: "Differentiable Physics for Graphics and AI. ",
+    year: "2026", short: "DPGAI", thumbnail: "assets/images/publications/dpgai.jpg",
+    title: "Differentiable Physics for Graphics and AI",
     authors: "Minchen Li, Chenfanfu Jiang, Yin Yang, Tuur Stuyck, Ming Lin, Daniele Panozzo, Miles Macklin, Guying Lin, Yunuo Chen, Kemeng Huang, Dewen Guo, Ying Jiang, Yifei Li",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
     links: [{ label: "Page", url: "https://dpgai.github.io/SIGGRAPH2026/" }, { label: "ACM DL", url: "https://dl.acm.org/doi/10.1145/3799828.3811422" }]
@@ -120,7 +122,7 @@ const publications = [
     links: [{ label: "Paper", url: "https://drive.google.com/file/d/1Ev97BaC42OEv6SS3HfqBUbJjrRf_6iX1/view?usp=sharing" }]
   },
   {
-    year: "2019", short: "SAIE", thumbnail: "assets/images/publications/img-exp.png",
+    year: "2019", short: "SAIE", thumbnail: "assets/images/publications/img-exp.jpg",
     title: "Structure-aware Image Expansion with Global Attention",
     authors: "Dewen Guo, Jie Feng, Bingfeng Zhou",
     venue: "ACM SIGGRAPH Asia 2019 Technical Briefs · Brisbane, Australia",
@@ -162,7 +164,7 @@ function renderPublications(year = "all") {
         <h3>${paper.title}</h3>
         <p class="publication-authors">${emphasizeName(paper.authors)}</p>
         <p class="publication-venue">${paper.venue}</p>
-        ${paper.links.length ? `<div class="publication-links">${paper.links.map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label} ↗</a>`).join("")}</div>` : ""}
+        ${(paper.links ?? []).length ? `<div class="publication-links">${paper.links.map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label} ↗</a>`).join("")}</div>` : ""}
       </div>
     </article>
   `).join("");
