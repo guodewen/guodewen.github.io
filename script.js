@@ -66,6 +66,7 @@ const publications = [
     title: "Interactive Yarn-level Knitwear with Nested Douglas-Rachford Splitting",
     authors: "Chun Yuan, Zixuan Lu, Haoyang Shi, Dewen Guo, Huamin Wang, Chenfanfu Jiang, Zherong Pan, Kui Wu, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
+    highlight: "Technical Papers Trailer",
     links: [
       { label: "Project page", url: "https://dl.acm.org/doi/abs/10.1145/3811277"},
       { label: "BibTex", url: "https://dl.acm.org/doi/abs/10.1145/3811277"},
