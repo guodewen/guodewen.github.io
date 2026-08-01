@@ -27,7 +27,7 @@ const publications = [
     year: "2026", short: "DPGAI", thumbnail: "assets/images/publications/dpgai.jpg",
     title: "Differentiable Physics for Graphics and AI",
     authors: "Minchen Li, Chenfanfu Jiang, Yin Yang, Tuur Stuyck, Ming Lin, Daniele Panozzo, Miles Macklin, Guying Lin, Yunuo Chen, Kemeng Huang, Dewen Guo, Ying Jiang, Yifei Li",
-    venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
+    venue: "ACM SIGGRAPH 2026 Technical Workshops · Los Angeles, USA",
     links: [{ label: "Page", url: "https://dpgai.github.io/SIGGRAPH2026/" }, { label: "ACM DL", url: "https://dl.acm.org/doi/10.1145/3799828.3811422" }]
   },
   {
