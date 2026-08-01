@@ -111,7 +111,7 @@ const publications = [
     year: "2025", short: "N-P", thumbnail: "assets/images/publications/neural-painting.png",
     title: "Neural-Polyptych: Content Controllable Painting Recreation for Diverse Genres",
     authors: "Yiming Zhao*, Dewen Guo*, Zhouhui Lian, Yue Gao, Jianhong Han, Jie Feng, Guoping Wang, Bingfeng Zhou, Sheng Li",
-    venue: "Tsinghua / IEEE CVM Journal 2025 · *Equal contributions",
+    venue: "TUP CVM Journal 2025 · *Equal contributions",
     links: [{ label: "Paper", url: "https://drive.google.com/file/d/1FcTh5JM6VWmIeYEgWsqOeGjqi0MvuxO3/view?usp=sharing" }]
   },
   {
