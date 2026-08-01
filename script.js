@@ -11,14 +11,14 @@ const videos = [
 const publications = [
   {
     year: "2026", short: "###", thumbnail: "",
-    title: "##############################################################",
+    title: "##########################",
     authors: "Dewen Guo et al.",
     venue: "ACM TOG (SIGGRAPH Asia 2026) · Kuala Lumpur, Malaysia",
     links: []
   },
   {
     year: "2026", short: "###", thumbnail: "",
-    title: "##############################################################",
+    title: "##########################",
     authors: "###, Dewen Guo et al.",
     venue: "ACM SIGGRAPH Asia 2026 · Kuala Lumpur, Malaysia",
     links: []
