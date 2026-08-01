@@ -35,6 +35,7 @@ const publications = [
     title: "JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature",
     authors: "Dewen Guo, Zixuan Lu, Zhiyong He, Yuqi Meng, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
+    highlight: "Technical Papers Trailer",
     links: [
       { label: "Paper", url: "https://drive.google.com/file/d/1Q13iEQPVUc17bSnrIFk38qoBFn7WBmi_/view?usp=drive_link" },
       { label: "Video", url: "https://drive.google.com/file/d/1FpqnKANUKW73GUDwwDxxDRGnAcsWbvqv/view?usp=drive_link" },
@@ -176,6 +177,7 @@ function renderPublications(year = "all") {
         <h3>${paper.title}</h3>
         <p class="publication-authors">${emphasizeName(paper.authors)}</p>
         <p class="publication-venue">${paper.venue}</p>
+        ${paper.highlight ? `<p class="publication-highlight"><span aria-hidden="true">★</span>${paper.highlight}</p>` : ""}
         ${(paper.links ?? []).length ? `<div class="publication-links">${paper.links.map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label} ↗</a>`).join("")}</div>` : ""}
       </div>
     </article>
