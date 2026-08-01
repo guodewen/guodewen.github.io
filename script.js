@@ -35,28 +35,40 @@ const publications = [
     title: "JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature",
     authors: "Dewen Guo, Zixuan Lu, Zhiyong He, Yuqi Meng, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
-    links: [{ label: "Video", url: "https://www.youtube.com/watch?v=LtEOF6TqryU" }]
+    links: [
+      { label: "Paper", url: "https://drive.google.com/file/d/1Q13iEQPVUc17bSnrIFk38qoBFn7WBmi_/view?usp=drive_link" },
+      { label: "Video", url: "https://drive.google.com/file/d/1FpqnKANUKW73GUDwwDxxDRGnAcsWbvqv/view?usp=drive_link" },
+      { label: "BibTeX", url: "https://sites.google.com/view/guo2026jgs/home" }
+    ]
   },
   {
     year: "2026", short: "HSC", thumbnail: "assets/images/publications/hsc.jpg",
     title: "Heterogeneous Subspace Corrections for GPU Deformable Multibody Dynamics",
     authors: "Dewen Guo, Zhendong Wang, Minchen Li, Sheng Li, Guoping Wang, Huamin Wang, Chenfanfu Jiang, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
-    links: [{ label: "Project page", url: "https://sites.google.com/view/multibody" }, { label: "Video", url: "https://www.youtube.com/watch?v=eu6gAxC29zc" }]
+    links: [
+      { label: "Project page", url: "https://sites.google.com/view/multibody" },
+      { label: "BibTex", url: "https://sites.google.com/view/guo2026hsc/home" }]
   },
   {
     year: "2026", short: "M-ABD", thumbnail: "assets/images/publications/mabd.png",
     title: "M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics",
     authors: "Zhiyong He, Dewen Guo, Minghao Guo, Yili Zhao, Wojciech Matusik, Hao Su, Chenfanfu Jiang, Peter Yichen Chen, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
-    links: []
+    links: [
+      { label: "Project page", url: "https://minsuglly.github.io/mabd/"},
+      { label: "BibTex", url: "https://minsuglly.github.io/mabd/"},
+    ]
   },
   {
     year: "2026", short: "KNIT", thumbnail: "assets/images/publications/yarn.png",
     title: "Interactive Yarn-level Knitwear with Nested Douglas-Rachford Splitting",
     authors: "Chun Yuan, Zixuan Lu, Haoyang Shi, Dewen Guo, Huamin Wang, Chenfanfu Jiang, Zherong Pan, Kui Wu, Yin Yang",
     venue: "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
-    links: []
+    links: [
+      { label: "Project page", url: "https://dl.acm.org/doi/abs/10.1145/3811277"},
+      { label: "BibTex", url: "https://dl.acm.org/doi/abs/10.1145/3811277"},
+    ]
   },
   {
     year: "2025", short: "POA", thumbnail: "assets/images/publications/poa.png",
