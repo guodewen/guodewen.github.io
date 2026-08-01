@@ -113,6 +113,15 @@ h1 em, .contact-section h2 em { color: var(--green); font-weight: 500; }
 .research-card h3 { position: absolute; z-index: 2; left: 1.5rem; bottom: 7.2rem; max-width: 260px; margin: 0; font: 500 1.6rem/1.15 var(--serif); }
 .research-card p { position: absolute; z-index: 2; right: 1.5rem; bottom: 1.5rem; left: 1.5rem; margin: 0; color: var(--muted); font-size: .84rem; line-height: 1.65; }
 
+.experience-section { display: grid; grid-template-columns: .75fr 1.25fr; gap: 6rem; background: var(--green); color: white; }
+.experience-section .section-kicker { color: var(--lime); }
+.experience-list { border-top: 1px solid rgba(255,255,255,.24); }
+.experience-item { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 1.5rem; align-items: center; padding: 1.45rem 0; border-bottom: 1px solid rgba(255,255,255,.24); }
+.experience-year { font: 500 .72rem var(--mono); color: var(--lime); }
+.experience-type { margin: 0 0 .35rem; font: 500 .61rem var(--mono); color: rgba(255,255,255,.55); text-transform: uppercase; letter-spacing: .09em; }
+.experience-details h3 { margin: 0; font: 500 1.35rem/1.2 var(--serif); }
+.experience-focus { margin: 0; color: rgba(255,255,255,.72); font-size: .78rem; text-transform: lowercase; }
+
 .gallery-section { background: #ebe5d9; }
 .video-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1rem; margin-top: 4rem; }
 .video-card { grid-column: span 2; position: relative; overflow: hidden; color: white; background: var(--ink); text-decoration: none; }
@@ -176,6 +185,7 @@ footer a { text-decoration: none; }
   .research-grid { grid-template-columns: 1fr; }
   .research-card { border-right: 0; border-bottom: 1px solid var(--line); }
   .research-card:last-child { border-bottom: 0; }
+  .experience-section { grid-template-columns: 1fr; gap: 3.5rem; }
   .video-card, .video-card:nth-child(1), .video-card:nth-child(2) { grid-column: span 3; }
   .publication { grid-template-columns: 55px 190px 1fr; gap: 1.2rem; }
   .service-section { grid-template-columns: 1fr; }
@@ -196,6 +206,8 @@ footer a { text-decoration: none; }
   .section-heading h2 { font-size: 3.4rem; }
   .row-heading { align-items: start; flex-direction: column; }
   .research-grid { margin-top: 3rem; }
+  .experience-item { grid-template-columns: 52px 1fr; gap: 1rem; }
+  .experience-focus { grid-column: 2; margin-top: -.45rem; }
   .video-grid { grid-template-columns: 1fr; }
   .video-card, .video-card:nth-child(1), .video-card:nth-child(2) { grid-column: auto; }
   .publication-tools { width: 100%; justify-content: space-between; }
