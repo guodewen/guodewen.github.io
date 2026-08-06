@@ -1,0 +1,13 @@
+{
+  "order": 14,
+  "year": "2019",
+  "short": "SAIE",
+  "thumbnail": "assets/images/publications/img-exp.jpg",
+  "title": "Structure-aware Image Expansion with Global Attention",
+  "authors": "Dewen Guo, Jie Feng, Bingfeng Zhou",
+  "venue": "ACM SIGGRAPH Asia 2019 Technical Briefs · Brisbane, Australia",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/1uhwy__0kgKzzuIdulmxLHgjJ4xeQd2GY/view?usp=sharing" },
+    { "label": "Supplement", "url": "https://drive.google.com/file/d/1pFZSpAvSJIBjBqOh597uS6LFhYftfOEm/view?usp=sharing" }
+  ]
+}
