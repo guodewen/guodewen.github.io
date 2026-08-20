@@ -1,0 +1,16 @@
+{
+  "order": 9,
+  "year": "2025",
+  "short": "KNOT",
+  "thumbnail": "assets/images/publications/knot.webp",
+  "title": "Fast Physics-Based Modeling of Knots and Ties Using Templates",
+  "authors": "Dewen Guo, Zhendong Wang, Zegao Liu, Sheng Li, Guoping Wang, Yin Yang, Huamin Wang",
+  "venue": "ACM SIGGRAPH 2025 · Vancouver, Canada",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/16gtNzoIEG-Ys_40-5ZkxtBvuaonABg8C/view?usp=drive_link" },
+    { "label": "Video", "url": "https://drive.google.com/file/d/1Pm0Rvc_YA6jkSaW1FIoTLlBZZodVl_fV/view?usp=sharing" },
+    { "label": "2 Minute Papers", "url": "https://www.youtube.com/watch?v=vYZbwJJk_hc" },
+    { "label": "BibTeX", "bibtex": "@inproceedings{10.1145/3721238.3730622,\nauthor = {Guo, Dewen and Wang, Zhendong and Liu, Zegao and Li, Sheng and Wang, Guoping and Yang, Yin and Wang, Huamin},\ntitle = {Fast Physics-Based Modeling of Knots and Ties using Templates},\nyear = {2025},\nisbn = {9798400715402},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3721238.3730622},\ndoi = {10.1145/3721238.3730622},\nabstract = {Knots and ties are captivating elements of digital garments and accessories, but they have been notoriously challenging and computationally expensive to model manually. In this paper, we propose a physics-based modeling system for knots and ties using templates. The primary challenge lies in transforming cloth pieces into desired knot and tie configurations in a controllable, penetration-free manner, particularly when interacting with surrounding meshes. To address this, we introduce a pipe-like parametric knot template representation, defined by a B{\\'e}zier curve as its medial axis and an adaptively adjustable radius for enhanced flexibility and variation. This representation enables customizable knot sizes, shapes, and styles while ensuring intersection-free results through robust collision detection techniques. Using the defined knot template, we present a mapping and penetration-free initialization method to transform selected cloth regions from UV space into the initial 3D knot shape. We further enable quasistatic simulation of knots and their surrounding meshes through a fast and reliable collision handling and simulation scheme. Our experiments demonstrate the system’s effectiveness and efficiency in modeling a wide range of digital knots and ties with diverse styles and shapes, including configurations that were previously impractical to create manually.},\nbooktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},\narticleno = {43},\nnumpages = {9},\nkeywords = {cloth simulation, intersection-free, physics-based modeling},\nlocation = {\n},\nseries = {SIGGRAPH Conference Papers '25}\n}" },
+    { "label": "App", "url": "https://help.style3d.com/studio/en/c2c8/5869/2bdc/c181" }
+  ]
+}

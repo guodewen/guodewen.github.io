@@ -1,0 +1,15 @@
+{
+  "order": 4,
+  "year": "2026",
+  "short": "JGS2-GQ",
+  "thumbnail": "assets/images/publications/jgs2-gq.jpg",
+  "title": "JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature",
+  "authors": "Dewen Guo, Zixuan Lu, Zhiyong He, Yuqi Meng, Bohan Wang, Lei Lan, Weiwei Xu, Chenfanfu Jiang, Yin Yang",
+  "venue": "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
+  "highlight": "Technical Papers Trailer",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/1Q13iEQPVUc17bSnrIFk38qoBFn7WBmi_/view?usp=drive_link" },
+    { "label": "Video", "url": "https://drive.google.com/file/d/1FpqnKANUKW73GUDwwDxxDRGnAcsWbvqv/view?usp=drive_link" },
+    { "label": "BibTeX", "bibtex": "@article{10.1145/3811274,\nauthor = {Guo, Dewen and Lu, Zixuan and He, Zhiyong and Meng, Yuqi and Wang, Bohan and Lan, Lei and Xu, Weiwei and Jiang, Chenfanfu and Yang, Yin},\ntitle = {JGS2-GQ: Training-free 2nd Jacobi with Gaussian Quadrature},\nyear = {2026},\nissue_date = {July 2026},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {45},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3811274},\ndoi = {10.1145/3811274},\nabstract = {JGS2 is a Jacobi-like GPU simulation algorithm. It avoids the overshooting issue by augmenting each subproblem with a perturbation subspace that predicts the global influence of the local solve. The efficiency of JGS2 is due to Cubature-based subspace integration at each subproblem. Being a data-driven method, Cubature requires a set of representative deformed poses that cover deformations likely to occur in the simulation. This requirement is unlikely for high-resolution deformation with rich local details. Therefore, simulation performance and convergence degenerate when Cubature extrapolates. This paper proposes a training-free subspace integration algorithm based on classic Gaussian quadrature (GQ). We leverage the fact that the subproblem's subspace bases can be well-approximated by a low-degree multivariable polynomial, which suggests GQ an excellent candidate for Cubature substitute. To this end, we introduce a novel algorithm that adaptively generates the integration region for each subproblem. As a result, GQ integration can be analytically retrieved without cumbersome data generation and training. We also show how to handle frictional contact by modifying the pre-computed perturbation subspace. The resulting JGS2-GQ framework is more versatile than the vanilla JGS2 method. It is more stable for large and novel deformations, and is free of data generation and expensive training, while maintaining a near second-order convergence that is comparable to Newton. Performance-wise, JGS2-GQ is as efficient as JGS2, which is three orders faster than classic CPU methods and up to two orders faster than classic GPU algorithms. When novel deformation occurs, JGS2-GQ outperforms JGS2 over 50\\%.},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {123},\nnumpages = {18},\nkeywords = {GPU algorithm, deformable model, numerical integration, parallel optimaization}\n}" }
+  ]
+}
