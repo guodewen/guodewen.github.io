@@ -1,0 +1,12 @@
+{
+  "order": 2,
+  "year": "2020",
+  "short": "VGG",
+  "thumbnail": "assets/images/publications/crowd.png",
+  "title": "VGG-Embedded Adaptive Layer-Normalized Crowd Counting Net with Scale-Shuffling Modules",
+  "authors": "Dewen Guo, Jie Feng, Bingfeng Zhou",
+  "venue": "IEEE ICPR 2020 · Milan, Italy",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/1Ev97BaC42OEv6SS3HfqBUbJjrRf_6iX1/view?usp=sharing" }
+  ]
+}

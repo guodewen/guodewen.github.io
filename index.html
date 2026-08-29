@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dewen Guo — researcher in physics simulation, numerical optimization, high-performance computing, robotics, and AI." />
+    <meta name="theme-color" content="#f5f1e8" />
+    <meta property="og:title" content="Dewen Guo — Physics Simulation Researcher" />
+    <meta property="og:description" content="Research in physics simulation, numerical optimization, high-performance computing, robotics, and AI." />
+    <meta property="og:type" content="website" />
+    <title>Dewen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Dewen, home">
+        <span class="wordmark-mark">DG</span>
+        <span>Dewen</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#publications">Publications</a>
+        <a href="#service">Service</a>
+        <a href="#experience">Experience</a>
+      </nav>
+      <a class="header-contact" href="mailto:guodw.sh@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Postdoc University of Utah · Open to opportunities</p>
+          <h1 id="hero-title">I build fast, robust<br /><em>physical simulations.</em></h1>
+          <p class="hero-intro">I'm working at the intersection of numerical optimization, GPU computing, robotics, and AI.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#publications">Explore publications <span aria-hidden="true">↓</span></a>
+            <a class="button button-quiet" href="https://www.linkedin.com/in/dewen-guo-640424121/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="education"><span>PhD</span> Peking U. 北大 · 2025 &nbsp; / &nbsp; <span>BE</span> ECNU 华师大</p>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="portrait-frame">
+            <img src="assets/images/profile.jpg" alt="Dewen" />
+            <div class="portrait-label"><span>Physics</span><span>×</span><span>Computation</span></div>
+          </div>
+          <div class="coordinate coordinate-top">40.7608° N</div>
+          <div class="coordinate coordinate-bottom">111.8910° W</div>
+        </div>
+      </section>
+
+      <section class="announcement reveal" aria-label="Latest news">
+        <p class="section-kicker">Now</p>
+        <p>I'll be presenting <strong>two papers</strong> and a workshop <a href="https://dpgai.github.io/SIGGRAPH2026/" target="_blank" rel="noreferrer">lightning talk ↗</a> at SIGGRAPH 2026 in Los Angeles.</p>
+        <span class="announcement-year">2026</span>
+      </section>
+
+      <section class="section research-section" id="research">
+        <div class="section-heading reveal">
+          <p class="section-kicker">01 / Research focus</p>
+          <h2>Making the physical world<br />computationally tractable.</h2>
+        </div>
+        <div class="research-grid">
+          <article class="research-card reveal">
+            <span class="research-index">A</span>
+            <div class="research-symbol" aria-hidden="true">∂</div>
+            <h3>Physics Simulation</h3>
+            <p>Efficient numerical methods for robust solid, cloth, contact, and multibody dynamics.</p>
+          </article>
+          <article class="research-card reveal reveal-delay">
+            <span class="research-index">B</span>
+            <div class="research-symbol" aria-hidden="true">∥</div>
+            <h3>High-Performance Computing</h3>
+            <p>Scalable GPU algorithms that turn challenging simulations into practical interactive systems.</p>
+          </article>
+          <article class="research-card reveal reveal-delay-2">
+            <span class="research-index">C</span>
+            <div class="research-symbol" aria-hidden="true">∇</div>
+            <h3>Robotics & AI</h3>
+            <p>Real-time and differentiable physics for learning, control, optimization, and physical intelligence.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="section-heading row-heading reveal">
+          <div>
+            <p class="section-kicker">02 / Selected work</p>
+            <h2>Research in motion.</h2>
+          </div>
+          <p class="heading-note">Project videos and technical highlights.<br />Select a card to watch on YouTube.</p>
+        </div>
+        <div class="video-grid" id="video-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section publications-section" id="publications">
+        <div class="section-heading row-heading reveal">
+          <div>
+            <p class="section-kicker">03 / Publications</p>
+            <h2>Publications.</h2>
+          </div>
+          <div class="publication-tools">
+            <label for="year-filter">Filter by year</label>
+            <select id="year-filter" aria-label="Filter publications by year">
+              <option value="all">All years</option>
+              <option value="2026">2026</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+            </select>
+          </div>
+        </div>
+        <div class="publication-list" id="publication-list" aria-live="polite"></div>
+      </section>
+
+      <section class="section service-section" id="service">
+        <div class="section-heading reveal">
+          <p class="section-kicker">04 / Academic service</p>
+          <h2>Reviewing.</h2>
+        </div>
+        <div class="service-list reveal">
+          <div><span>SIGGRAPH</span><span>2025, 2026</span></div>
+          <div><span>SIGGRAPH Asia</span><span>2026</span></div>
+          <div><span>TOG</span><span>2026</span></div>
+          <div><span>CAVW</span><span>2026</span></div>
+          <div><span>CGF</span><span>2026</span></div>
+          <div><span>TVCG</span><span>2026</span></div>
+          <div><span>PG</span><span>2026</span></div>
+          <div><span>ICXR</span><span>2026</span></div>
+          <div><span>CAD / Graphics</span><span>2025</span></div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="section-heading reveal">
+          <p class="section-kicker">05 / Experience</p>
+          <h2>Internship &amp;<br />visiting history.</h2>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item reveal">
+            <div class="experience-year">2026</div>
+            <div class="experience-details">
+              <p class="experience-type">Postdoc</p>
+              <h3>University of Utah</h3>
+            </div>
+            <p class="experience-focus">Simulation</p>
+          </article>
+          <article class="experience-item reveal">
+            <div class="experience-year">2025</div>
+            <div class="experience-details">
+              <p class="experience-type">Internship</p>
+              <h3>Style3D Research</h3>
+            </div>
+            <p class="experience-focus">Digital fashion</p>
+          </article>
+          <article class="experience-item reveal">
+            <div class="experience-year">2020</div>
+            <div class="experience-details">
+              <p class="experience-type">Internship</p>
+              <h3>Microsoft (MSRA)</h3>
+            </div>
+            <p class="experience-focus">Deep learning</p>
+          </article>
+          <article class="experience-item reveal">
+            <div class="experience-year">2019</div>
+            <div class="experience-details">
+              <p class="experience-type">Internship</p>
+              <h3>SenseTime Research</h3>
+            </div>
+            <p class="experience-focus">Geometry processing</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section reveal">
+        <div class="contact-heading">
+          <p class="section-kicker">Collaborate</p>
+          <p>Open to conversations across<br />academia and industry.</p>
+        </div>
+        <div class="contact-message">
+          <h2>Let's build something<br /><em>physically intelligent.</em></h2>
+          <a class="contact-cta" href="mailto:guodw.sh@gmail.com">
+            <span>Start a conversation</span>
+            <strong>guodw.sh@gmail.com</strong>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="contact-mark" aria-hidden="true">
+          <span>∂</span>
+          <p>Physics × computation</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© <span id="current-year"></span> Dewen Guo</p>
+      <p>Physics · Graphics · Robotics · AI</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
