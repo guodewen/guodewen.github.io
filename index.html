@@ -1,0 +1,127 @@
+<!doctype html>
+<!--
+  Site theme: change the name in data-theme on the <html> tag below.
+    dark:   teal, midnight, forest, moss, warm, ember, crimson, sunset, plum, dusk, aurora, steam, graphite
+    light:  paper, sage
+  To try a theme without editing this file, open the page with ?theme=<name> (e.g. index.html?theme=paper).
+  An unknown name falls back to teal.
+-->
+<html lang="en" data-theme="midnight">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dewen Guo, postdoctoral researcher at the University of Utah. Physics-based simulation, numerical optimization, GPU computing, robotics." />
+    <meta name="theme-color" content="#0c0d13" />
+    <script>
+      // ?theme=<name> in the URL overrides data-theme above (for previewing).
+      const previewTheme = new URLSearchParams(location.search).get("theme");
+      if (previewTheme) document.documentElement.dataset.theme = previewTheme;
+    </script>
+    <meta property="og:title" content="Dewen Guo" />
+    <meta property="og:description" content="Postdoctoral researcher at the University of Utah. Physics-based simulation, numerical optimization, GPU computing, robotics." />
+    <meta property="og:type" content="website" />
+    <title>Dewen Guo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="bar">
+        <a class="brand" href="#top">Dewen Guo</a>
+        <nav aria-label="Main navigation">
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#service">Service</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="wrap">
+      <section class="profile" id="top" aria-label="About">
+        <img class="portrait" src="assets/images/profile.jpg" alt="Portrait of Dewen Guo" width="240" height="251" />
+        <div>
+          <h1>Dewen Guo</h1>
+          <p class="role">Postdoctoral Researcher, University of Utah</p>
+          <p class="bio">
+            I received my Ph.D. from Peking University in 2025 and my B.E. from East China Normal University.
+            My research is on physics-based simulation: numerical optimization and GPU algorithms for deformable bodies,
+            cloth, contact, and multibody dynamics, and their use in robotics and AI.
+          </p>
+          <p class="contact">
+            <a href="mailto:guodw.sh@gmail.com">guodw.sh@gmail.com</a>
+            <span class="sep">·</span>
+            <a href="https://www.linkedin.com/in/dewen-guo-640424121/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span class="sep">·</span>
+            <a href="https://www.youtube.com/@gdwsh/videos" target="_blank" rel="noreferrer">YouTube</a>
+            <span class="sep">·</span>
+            Salt Lake City, Utah
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <h2>Research interests</h2>
+        <div class="interests">
+          <div>
+            <h3>Physics-based simulation</h3>
+            <p>Elastodynamics with contact, cloth and garments, rods and yarn, peridynamics, affine-body and multibody dynamics.</p>
+          </div>
+          <div>
+            <h3>Optimization and GPU computing</h3>
+            <p>Newton–PCG and augmented-Lagrangian solvers, Jacobi-type and subspace-correction methods, numerical quadrature, matrix-free GPU implementations.</p>
+          </div>
+          <div>
+            <h3>Robotics and AI</h3>
+            <p>Contact models for robot control on GPU; differentiable physics for graphics and learning.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="head">
+          <h2>Publications</h2>
+          <div class="year-filter" id="year-filter" role="group" aria-label="Filter publications by year"></div>
+        </div>
+        <div id="publication-list" aria-live="polite">
+          <p class="note">Loading publications…</p>
+        </div>
+        <noscript><p class="note">Publications are loaded with JavaScript.</p></noscript>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="head">
+          <h2>Gallery</h2>
+          <a class="head-link" href="https://www.youtube.com/@gdwsh/videos" target="_blank" rel="noreferrer">All videos on YouTube ↗</a>
+        </div>
+        <div class="video-grid" id="video-grid"></div>
+      </section>
+
+      <section class="section" id="service">
+        <h2>Academic service</h2>
+        <p class="service-label">Reviewer for</p>
+        <ul class="inline-list">
+          <li>SIGGRAPH <span class="dim">2025, 2026</span></li>
+          <li>SIGGRAPH Asia <span class="dim">2026</span></li>
+          <li>TOG <span class="dim">2026</span></li>
+          <li>CAVW <span class="dim">2026</span></li>
+          <li>CGF <span class="dim">2026</span></li>
+          <li>TVCG <span class="dim">2026</span></li>
+          <li>PG <span class="dim">2026</span></li>
+          <li>ICXR <span class="dim">2026</span></li>
+          <li>CAD / Graphics <span class="dim">2025</span></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap foot">
+        <span>© <span id="current-year"></span> Dewen Guo</span>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

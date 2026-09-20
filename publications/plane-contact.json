@@ -1,0 +1,15 @@
+{
+  "order": 13,
+  "year": "2026",
+  "short": "plane-contact",
+  "thumbnail": "assets/images/publications/plane-contact.png",
+  "title": "Plane-based Potential Contact Model for Robot Control on GPU",
+  "authors": "Chun Yuan, Dewen Guo, Xiaohan Ye, Xifeng Gao, Taku Komura, Zherong Pan, Yin Yang, Kui Wu",
+  "venue": "ACM SIGGRAPH Asia 2026 · Kuala Lumpur, Malaysia",
+  "links": [
+    {
+      "label": "BibTeX",
+      "bibtex": "@inproceedings{10.1145/3829340.3842161,\nauthor = {Yuan, Chun and Guo, Dewen and Ye, Xiaohan and Gao, Xifeng and Komura, Taku and Pan, Zherong and Yang, Yin and Wu, Kui},\ntitle = {Plane-based Potential Contact Model for Robot Control on GPU},\nyear = {2026},\nisbn = {979-8-4007-2842-6/2026/12},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3829340.3842161},\ndoi = {10.1145/3829340.3842161},\nbooktitle = {SIGGRAPH Asia 2026 Conference Papers},\nmonth = dec,\nkeywords = {GPU, Rigid Body, Motion Control}\n}"
+    }
+  ]
+}

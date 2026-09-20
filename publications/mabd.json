@@ -1,0 +1,13 @@
+{
+  "order": 9,
+  "year": "2026",
+  "short": "M-ABD",
+  "thumbnail": "assets/images/publications/mabd.png",
+  "title": "M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics",
+  "authors": "Zhiyong He, Dewen Guo, Minghao Guo, Yili Zhao, Wojciech Matusik, Hao Su, Chenfanfu Jiang, Peter Yichen Chen, Yin Yang",
+  "venue": "ACM TOG (SIGGRAPH 2026) · Los Angeles, USA",
+  "links": [
+    { "label": "Project page", "url": "https://minsuglly.github.io/mabd/" },
+    { "label": "BibTeX", "bibtex": "@article{10.1145/3811276,\nauthor = {He, Zhiyong and Guo, Dewen and Guo, Minghao and Zhao, Yili and Matusik, Wojciech and Su, Hao and Jiang, Chenfanfu and Chen, Peter Yichen and Yang, Yin},\ntitle = {M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics},\nyear = {2026},\nissue_date = {July 2026},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {45},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3811276},\ndoi = {10.1145/3811276},\nabstract = {Simulating large-scale articulated assemblies poses a significant challenge due to the numerical stiffness and geometric complexity of jointed structures. Conventional rigid body solvers struggle with the high nonlinearity induced by rotation parameterization. This difficulty becomes more pronounced for multiple two-way-coupled bodies. This paper introduces a novel framework that leverages the linear kinematic mapping of Affine Body Dynamics (ABD). As ABD targets near-rigid objects, the constitutive variations of different materials become negligible, which justifies a co-rotational approach to isolate geometric nonlinearities of the system. This insight enables the use of constant system matrices that can be pre-factorized throughout the simulation, even with fully implicit integration schemes. To manage the high DOF counts of large-scale systems, we map primal body coordinates onto a compact dual space defined by minimal joint degrees of freedom. By solving the resulting KKT systems, our method ensures exact constraint enforcement and physically accurate motion propagation. We provide a suite of specialized solvers tailored for diverse joint topologies, including chains, trees, closed loops, and irregular networks. Experimental results show that our approach achieves interactive rates for systems with hundreds of thousands of bodies on a single CPU core, while maintaining excellent stability at large time steps.},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {99},\nnumpages = {19},\nkeywords = {rigid body dynamics, multibody dynamics, reduced model, kinematic constraints}\n}" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "order": 3,
+  "year": "2024",
+  "short": "BAL",
+  "thumbnail": "assets/images/publications/bal.png",
+  "title": "Barrier-Augmented Lagrangian for GPU-based Elastodynamic Contact",
+  "authors": "Dewen Guo, Minchen Li, Yin Yang, Sheng Li, Guoping Wang",
+  "venue": "ACM TOG (SIGGRAPH Asia 2024) · Tokyo, Japan",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/19rJocTxXLsSuvUqth8LjwLfgD4FqneZ0/view?usp=drive_link" },
+    { "label": "Supplement", "url": "https://drive.google.com/file/d/1CYaWDP59OHTyCYQ_TbwjZK8uimxDbmty/view?usp=drive_link" },
+    { "label": "Video", "url": "https://drive.google.com/file/d/1rl4d4P9sxuR30gKkZUrewnTuF8UYcuaC/view?usp=sharing" },
+    { "label": "BibTeX", "bibtex": "@article{10.1145/3687988,\nauthor = {Guo, Dewen and Li, Minchen and Yang, Yin and Li, Sheng and Wang, Guoping},\ntitle = {Barrier-Augmented Lagrangian for GPU-based Elastodynamic Contact},\nyear = {2024},\nissue_date = {December 2024},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {43},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3687988},\ndoi = {10.1145/3687988},\nabstract = {We propose a GPU-based iterative method for accelerated elastodynamic simulation with the log-barrier-based contact model. While Newton's method is a conventional choice for solving the interior-point system, the presence of ill-conditioned log barriers often necessitates a direct solution at each linearized substep and costs substantial storage and computational overhead. Moreover, constraint sets that vary in each iteration present additional challenges in algorithm convergence. Our method employs a novel barrier-augmented Lagrangian method to improve system conditioning and solver efficiency by adaptively updating an augmentation constraint sets. This enables the utilization of a scalable, inexact Newton-PCG solver with sparse GPU storage, eliminating the need for direct factorization. We further enhance PCG convergence speed with a domain-decomposed warm start strategy based on an eigenvalue spectrum approximated through our in-time assembly. Demonstrating significant scalability improvements, our method makes simulations previously impractical on 128 GB of CPU memory feasible with only 8 GB of GPU memory and orders-of-magnitude faster. Additionally, our method adeptly handles stiff problems, surpassing the capabilities of existing GPU-based interior-point methods. Our results, validated across various complex collision scenarios involving intricate geometries and large deformations, highlight the exceptional performance of our approach.},\njournal = {ACM Trans. Graph.},\nmonth = nov,\narticleno = {225},\nnumpages = {17},\nkeywords = {collision handling, elastodynamics, constrained optimization, augmented lagrangian, inexact newton-PCG, domain decomposition, GPU}\n}" }
+  ]
+}

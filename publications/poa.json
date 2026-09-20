@@ -1,0 +1,15 @@
+{
+  "order": 7,
+  "year": "2025",
+  "short": "POA",
+  "thumbnail": "assets/images/publications/poa.png",
+  "title": "Progressive Outfit Assembly and Instantaneous Pose Transfer",
+  "authors": "Dewen Guo, Zhendong Wang, Zegao Liu, Sheng Li, Guoping Wang, Yin Yang, Huamin Wang",
+  "venue": "ACM SIGGRAPH Asia 2025 · Hong Kong, China",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/161Y4QR9rsO2V9nqBtTowi45Fkzes2Esb/view?usp=drive_link" },
+    { "label": "Video", "url": "https://drive.google.com/file/d/1wSNbiuqFrqZT2ov067P8TMaw-_dN8Dbv/view?usp=drive_link" },
+    { "label": "BibTeX", "bibtex": "@inproceedings{10.1145/3757377.3763868,\nauthor = {Guo, Dewen and Wang, Zhendong and Liu, Zegao and Li, Sheng and Wang, Guoping and Yang, Yin and Wang, Huamin},\ntitle = {Progressive Outfit Assembly and Instantaneous Pose Transfer},\nyear = {2025},\nisbn = {9798400721373},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3757377.3763868},\ndoi = {10.1145/3757377.3763868},\nabstract = {With the rise of digital fashion, reusing high-quality garment assets to assemble new outfits has become increasingly important for improving design efficiency and reducing production costs. However, combining multiple garments often introduces complex inter-garment intersections that are difficult to resolve. In this paper, we propose a novel framework that introduces a midsurface representation to simplify multilayered garments for intersection-free outfit assembly. Each garment is approximated by a watertight tetrahedral enclosure, enabling efficient resolution of inter-garment collisions on the midsurface level. To assemble an outfit, our method progressively untangles pairs of single-layer midsurfaces and incrementally constructs a merged midsurface. To recover the intersection-free full geometry from these deformed midsurfaces and enable instantaneous transfer across different poses, we uses embedded anchors to drive inversion-free deformation of enclosing tetrahedral cages. Through various examples, we demonstrate that our method provides a scalable and automated solution for virtual outfit coordination, enabling the direct reuse of garment assets in high-fidelity, collision-free digital fashion workflows.},\nbooktitle = {Proceedings of the SIGGRAPH Asia 2025 Conference Papers},\narticleno = {76},\nnumpages = {12},\nkeywords = {cloth simulation, untangling, embedded deformation},\nlocation = {\n},\nseries = {SA Conference Papers '25}\n}" },
+    { "label": "App", "url": "https://www.style3d.com/products/mixmatch" }
+  ]
+}

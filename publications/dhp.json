@@ -1,0 +1,15 @@
+{
+  "order": 5,
+  "year": "2025",
+  "short": "DHP",
+  "thumbnail": "assets/images/publications/dhp.png",
+  "title": "Diagonal Hessian Proxy for Efficient Elastic Simulation using Peridynamics",
+  "authors": "Dewen Guo, Ran Tian, Sinuo Liu, Guoping Wang, Sheng Li",
+  "venue": "IEEE TVCG 2025",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/1onYLLIpjFltZd2cOY4deh1dSQWCg-tRq/view?usp=sharing" },
+    { "label": "Supplement", "url": "https://drive.google.com/file/d/1X0rK5kG07_3LAx7Tc0k5EC7qCG2OP_xv/view?usp=sharing" },
+    { "label": "Video", "url": "https://drive.google.com/file/d/12QUcuTYwEsUvR8YH9xaaNUpoAS20LnYG/view?usp=sharing" },
+    { "label": "BibTeX", "bibtex": "@ARTICLE{10795201,\n  author={Guo, Dewen and Tian, Ran and Liu, Sinuo and Wang, Guoping and Li, Sheng},\n  journal={IEEE Transactions on Visualization and Computer Graphics}, \n  title={Diagonal Hessian Proxy for Efficient Elastic Simulation Using Peridynamics}, \n  year={2025},\n  volume={31},\n  number={9},\n  pages={6466-6483},\n  keywords={Shape;Deformation;Computational modeling;Jacobian matrices;Convergence;Elasticity;Strain;Mathematical models;Graphics processing units;Force;GPU;hessian proxy;hyperelasticity;meshless simulation;peridynamics;shape matching},\n  doi={10.1109/TVCG.2024.3516480}}\n" }
+  ]
+}

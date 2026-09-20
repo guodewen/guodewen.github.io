@@ -1,0 +1,15 @@
+{
+  "order": 14,
+  "year": "2026",
+  "short": "PD-JGS2",
+  "thumbnail": "assets/images/publications/pd-jgs2.png",
+  "title": "Multi-level Quadrature for Projective Dynamics",
+  "authors": "Dewen Guo*, Yuqi Meng*, Zixuan Lu*, Zhiyong He, Huamin Wang, Lei Lan, Weiwei Xu, Kui Wu, Chenfanfu Jiang, Yin Yang",
+  "venue": "ACM TOG (SIGGRAPH Asia 2026) · Kuala Lumpur, Malaysia · *equal contribution",
+  "links": [
+    {
+      "label": "BibTeX",
+      "bibtex": "@article{10.1145/3842501,\nauthor = {Guo, Dewen and Meng, Yuqi and Lu, Zixuan and He, Zhiyong and Wang, Huamin and Lan, Lei and Xu, Weiwei and Wu, Kui and Jiang, Chenfanfu and Yang, Yin},\ntitle = {Multi-level Quadrature for Projective Dynamics},\nyear = {2026},\nissue_date = {December 2026},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {45},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3842501},\ndoi = {10.1145/3842501},\njournal = {ACM Trans. Graph.},\nmonth = dec,\narticleno = {218},\nkeywords = {Numerical integration, Optimization, Projective dynamics, Deformable model}\n}"
+    }
+  ]
+}
