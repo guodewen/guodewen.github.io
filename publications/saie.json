@@ -1,0 +1,14 @@
+{
+  "order": 1,
+  "year": "2019",
+  "short": "SAIE",
+  "thumbnail": "assets/images/publications/img-exp.jpg",
+  "title": "Structure-aware Image Expansion with Global Attention",
+  "authors": "Dewen Guo, Jie Feng, Bingfeng Zhou",
+  "venue": "ACM SIGGRAPH Asia 2019 Technical Briefs · Brisbane, Australia",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/1uhwy__0kgKzzuIdulmxLHgjJ4xeQd2GY/view?usp=sharing" },
+    { "label": "Supplement", "url": "https://drive.google.com/file/d/1pFZSpAvSJIBjBqOh597uS6LFhYftfOEm/view?usp=sharing" },
+    { "label": "BibTeX", "bibtex": "@inproceedings{10.1145/3355088.3365161,\nauthor = {Guo, Dewen and Feng, Jie and Zhou, Bingfeng},\ntitle = {Structure-Aware Image Expansion with Global Attention},\nyear = {2019},\nisbn = {9781450369459},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3355088.3365161},\ndoi = {10.1145/3355088.3365161},\nabstract = {We present a novel structure-aware strategy for image expansion which aims to complete an image from a small patch. Different from image inpainting, the majority of the pixels are absent here. Hence, there are higher requirements for global structure-aware prediction to produce visually plausible results. Thus, treating the expansion tasks as inpainting from the outside is ill-posed. Therefore, we propose a learning-based method combining structure-aware and visual attention strategies to make better prediction. Our architecture consists of two stages. Since visual attention cannot be taken full advantage of when the global structure is absent, we first use the ImageNet-pre-trained VGG-19 to make the structure-aware prediction on the pre-training stage. Then, we implement a non-local attention layer on the coarsely-completed results on the refining stage. Our network can well predict the global structures and semantic details from small input image patches, and generate full images with structural consistency. We apply our method on a human face dataset, which containing rich semantic and structural details. The results show its stability and effectiveness.},\nbooktitle = {SIGGRAPH Asia 2019 Technical Briefs},\npages = {13–16},\nnumpages = {4},\nkeywords = {Image expansion, generative adversarial network, global attention, structure-aware},\nlocation = {Brisbane, QLD, Australia},\nseries = {SA '19}\n}" }
+  ]
+}

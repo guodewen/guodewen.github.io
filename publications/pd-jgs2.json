@@ -1,0 +1,20 @@
+{
+  "order": 14,
+  "year": "2026",
+  "short": "PD-JGS2",
+  "thumbnail": "assets/images/publications/pd-jgs2.png",
+  "title": "Multi-level Quadrature for Projective Dynamics",
+  "authors": "Dewen Guo*, Yuqi Meng*, Zixuan Lu*, Zhiyong He, Huamin Wang, Lei Lan, Weiwei Xu, Kui Wu, Chenfanfu Jiang, Yin Yang",
+  "venue": "ACM TOG (SIGGRAPH Asia 2026) · Kuala Lumpur, Malaysia · *equal contribution",
+  "highlight": "Back Cover of ACM TOG",
+  "links": [
+    {
+      "label": "ACM DL",
+      "url": "https://doi.org/10.1145/3842501"
+    },
+    {
+      "label": "BibTeX",
+      "bibtex": "@article{10.1145/3842501,\nauthor = {Guo, Dewen and Meng, Yuqi and Lu, Zixuan and He, Zhiyong and Wang, Huamin and Lan, Lei and Xu, Weiwei and Wu, Kui and Jiang, Chenfanfu and Yang, Yin},\ntitle = {Multi-level Quadrature for Projective Dynamics},\nyear = {2026},\nissue_date = {December 2026},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {45},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3842501},\ndoi = {10.1145/3842501},\nabstract = {Projective dynamics (PD) is a popular framework for efficient physical simulation. However, its factorization-based global solve maps poorly to GPU parallelization, while iterative alternatives often fail to converge effectively for stiff or high-resolution models. This paper reformulates the PD global solve by observing that its primary computational bottleneck lies in vector dot products, which can be reinterpreted as discrete integrations over the deformable body. The resulting integrand exhibits a Yukawa-like kernel structure that peaks sharply at each mesh node and decays exponentially with distance. Exploiting this prior, we partition the domain into near, middle, and far fields around each node, and design a quadrature rule for each that matches the local behavior of the integrand: an anisotropic Gaussian fit with a closed-form integral in the near field, a low-order Gauss-Legendre rule for the smoothed residual in the middle field, and a weighted k-means++ clustering with centroid-based quadrature in the irregular far field. This integration perspective reveals an effective sparsity pattern that enables both excellent parallelism and rapid convergence. Our algorithm also serves as a strong preconditioner for collision-involved PD systems and delivers significant speedup over existing PD solvers across a range of deformable scenarios.},\njournal = {ACM Trans. Graph.},\nmonth = nov,\narticleno = {218},\nnumpages = {17},\nkeywords = {numerical integration, optimization, projective dynamics, deformable model}\n}"
+    }
+  ]
+}

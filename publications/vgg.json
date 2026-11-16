@@ -1,0 +1,13 @@
+{
+  "order": 2,
+  "year": "2020",
+  "short": "VGG",
+  "thumbnail": "assets/images/publications/crowd.png",
+  "title": "VGG-Embedded Adaptive Layer-Normalized Crowd Counting Net with Scale-Shuffling Modules",
+  "authors": "Dewen Guo, Jie Feng, Bingfeng Zhou",
+  "venue": "IEEE ICPR 2020 · Milan, Italy",
+  "links": [
+    { "label": "Paper", "url": "https://drive.google.com/file/d/1Ev97BaC42OEv6SS3HfqBUbJjrRf_6iX1/view?usp=sharing" },
+    { "label": "BibTeX", "bibtex": "@INPROCEEDINGS{9413072,\n  author={Guo, Dewen and Feng, Jie and Zhou, Bingfeng},\n  booktitle={2020 25th International Conference on Pattern Recognition (ICPR)}, \n  title={VGG-Embedded Adaptive Layer-Normalized Crowd Counting Net with Scale-Shuffling Modules}, \n  year={2021},\n  volume={},\n  number={},\n  pages={1475-1482},\n  keywords={Training;Image quality;Lighting;Benchmark testing;Real-time systems;Pattern recognition;Security},\n  doi={10.1109/ICPR48806.2021.9413072}}" }
+  ]
+}
